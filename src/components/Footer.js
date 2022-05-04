@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+      <section className='footer-abonnement'>
+        <p className='footer-abonnement-heading'>
+          Rejoignez notre newslatter pour recevoir les meilleurs offres
         </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+        <p className='footer-abonnement-text'>
+          Vous pouvez vous désabonner à tout moment.
         </p>
         <div className='input-areas'>
           <form>
@@ -19,40 +19,37 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Votre courriel'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>S'abonner</Button>
           </form>
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>À Propos</h2>
+            <Link to='/sign-up'>Comment ça fontionne</Link>
+            <Link to='/'>Avis</Link>
+            <Link to='/'>Carrières</Link>
+            <Link to='/'>Terms and conditions</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
+            <h2>Nous Contacter</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
+            <h2>Vidéos</h2>
+            <Link to='/'>Ambassadeurs</Link>
+            <Link to='/'>Agences</Link>
             <Link to='/'>Influencer</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
+            <h2>Médias Sociaux</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
@@ -64,11 +61,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              VOYAGES
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>VOYAGES © 2022</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

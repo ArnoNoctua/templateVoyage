@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #242424;
+  background-color: #242323;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.footer-subscription {
+.footer-abonnement {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,17 +19,17 @@
   color: #fff;
 }
 
-.footer-subscription > p {
+.footer-abonnement > p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
-.footer-subscription-heading {
+.footer-abonnement-heading {
   margin-bottom: 24px;
   font-size: 24px;
 }
 
-.footer-subscription-text {
+.footer-abonnement-text {
   margin-bottom: 24px;
   font-size: 20px;
 }
